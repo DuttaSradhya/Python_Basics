@@ -6,8 +6,15 @@
 # str.count("am")           # counts the occurence of the substr in string
 
 str = "i am a coder"
+
+print(str)
+
 print(str.endswith("er"))         # returns true if string ends with substr
+
 print(str.capitalize())
-# str.replace(old,new)
-# str.find(word)                      # returns 1st index of 1st occurence
-# str.count("am")                    # counts the occurence of the substr in string
+
+print(str.replace("coder","programmer"))
+
+print(str.find("coder"))                      # returns 1st index of 1st occurence
+
+print(str.count("am"))                    # counts the occurence of the substr in string
